@@ -155,16 +155,18 @@ section{
 img{
     display: inline-block;
     position: absolute;
-    width: 45%; height: 85%; top:7.5%;
-    right: 7%;
+    width: 40%; top:7.5%;
+    right: 10%;
 }
 #map_content article{
     position: absolute;
     text-align: left;
     line-height: 2em; font-size:1.2rem;
-    left: 8%; top: 12%;
+    left: 10%; top: 12%;
 }
 #map_content article h1{
-    font-size:3rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:2.5rem;
     margin-top:5px;
+    letter-spacing: 2px;
 }

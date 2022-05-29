@@ -1,0 +1,62 @@
+header>h1{
+    margin-left:3%;
+    font-family: 'Water Brush', cursive;
+}
+ul, ol, li{list-style: none;}
+ul::after{/*li float 해제*/
+    content:"";display:block; clear:both;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+.mainmenu{
+    font-family: 'Gowun Dodum', sans-serif;     
+}
+header a:visited{
+    color: black;
+    text-decoration: none;
+}
+.mainmenu>a:hover{
+    color:rgb(82, 82, 82); font-size: 1.15rem;
+}
+header{
+    height: 45px;
+    width:100%;
+    padding: 1rem;
+    font-weight: bold;
+    background:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* border-bottom: solid 1px black; */
+    top:0; left:0;
+    z-index:0;
+}
+body{
+    padding-top:60px;
+    margin-left: 0; margin-right:0;
+}
+html{
+    margin-left: 0; margin-right:0;
+}
+#menu{
+    width: 30%; text-align:center;
+}  
+#main1>li{
+    text-align:center;
+    position:relative;
+    float:left;
+}
+#main1>li:hover>.submenu{
+    display:block;
+}
+
+ul>li>a{
+    text-align: center;
+    margin:0 auto;
+}
+.mainmenu{
+    font-size: 1.2rem; text-align:center;
+    width: 40%;

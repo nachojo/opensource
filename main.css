@@ -1,18 +1,18 @@
-.content{
+.title{
     width: 100%;
     display: flex;
     justify-content: center;
     font-family: 'Nanum Gothic Coding', monospace;
     text-align: center;
 }
-.content h1{
+.title h1{
     line-height: 1.5em;
     margin-top: 5%;
-    font-weight:700; font-size:2rem; letter-spacing: 3px;
+    font-weight:700; font-size:2.5rem; letter-spacing: 3px;
     color: rgb(13, 97, 51);
 }
 .mainsec{
-    height: 479px;
+    height: 461px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -28,11 +28,11 @@
     width: 20%;
 }
 #m1 h1{
-    margin-top: 80px; margin-bottom:-5px;
+    margin-top: 70px; margin-bottom:-5px;
     font-size: 1.2rem; font-weight: 500;
 }
 #m2 h1{
-    margin-top: 80px; margin-bottom:-5px;
+    margin-top: 70px; margin-bottom:-5px;
     font-size: 1.2rem; font-weight: 500;
 } 
 #m1 h3{
@@ -48,11 +48,11 @@
 .mainsec .but{
     font-family: 'Noto Sans KR', sans-serif;
     background-color:white;
-    border: 2.5px solid rgb(13, 97, 51); border-radius: 15px;
+    border: 2px solid rgb(13, 97, 51); border-radius: 15px;
     cursor: pointer;
     width: 40%;
     margin-top: 20px;
-    padding-top: 2px; padding-bottom: 5px; padding-left: 15px;
+    padding-top: 2px; padding-bottom: 5px; padding-left: 12px;
 }
 .mainsec .but>a{
     text-decoration: none;
@@ -85,18 +85,88 @@
 .space:hover img{
     opacity: 20%;
 }
-   /* <div class = "content" id = "subcon">
-        <article class = "mainsec" id = "m1">
-            <h1>Region</h1>
-            <h3>서울 각 구의 따릉이 정보를 지역별로 볼 수 있습니다</h3>
-            <img src="map2.png">
-            <button class = "but"><a href = "region.html"> go to detail ></a></button>
-        </article>
-        <article class = "mainsec" id = "m2">
-            <h1>Sub-analysis</h1>
-            <h3>서울 각 구의 따릉이 상세 정보를 볼 수 있습니다</h3>
-            <img src="graph.png">
-            <button class = "but"><a href = "sub.html"> go to detail ></a></button>
-        </article>
+.about{
+    height: 672px;
+	width: 100%;
+    display: flex;
+    background-color: rgb(13, 97, 51);
+	flex-direction: column;
+	align-items:center;
+	overflow: hidden;
+}
+.about h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 5rem;
+	margin-left: -40%;
+	margin-top:4%; margin-bottom: -0.1%;
+	color: white;
+    /*writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    bottom: 10%; margin-left: 12.2%;*/
+}
+.about .about_con{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width:60%; height: 400px; margin-top: -25px;
+	justify-content: center;
+	background-color: white;
+}
+#submenu{
+	z-index:0;
+	width: 15%;
+	margin-left: 5%
+}
+#submenu>button{
+    font-family: 'Noto Sans KR', sans-serif;
+    border : 0px; background-color:white;
+    font-size:1rem; font-weight: 300;
+    margin-left:-8px;margin-right:-6px;
+    height:40px; letter-spacing: 1.5px;
+    box-sizing: border-box; 
+    cursor: pointer;
+}
+#submenu a:hover{
+    color: rgb(18, 113, 21);
+    font-weight:400;
+    /* border-bottom : 2px solid rgb(18, 113, 21); */
+}
 
-    </div>*/
+#submenu button>a{
+    width: 140px; height: 40px;
+    color: black; display:block;
+    text-decoration: none;
+}
+#submenu button>a:visited{
+    text-decoration: none;
+}
+#submenu #active a{
+    font-weight:bold;
+}
+#submenu #active a:hover{
+    color: rgb(18, 113, 21);
+    /* border-bottom : 2px solid rgb(18, 113, 21); */
+}
+
+section{
+    width:50%; margin-left: 10%;
+    /* border: 3px solid black; */
+}
+
+#map_content article{
+    text-align: left;
+    line-height: 1.8em;
+	letter-spacing: 2px;
+	width: 200%;
+}
+
+.about h2{
+	margin-left: 83%;
+	margin-top: 2.9%;
+	margin-bottom: px;
+	text-align: right;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: white;
+	letter-spacing: 2px;
+}

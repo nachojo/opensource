@@ -37,9 +37,11 @@ header{
 body{
     padding-top:60px;
     margin-left: 0; margin-right:0;
+    margin-bottom:0;
 }
 html{
     margin-left: 0; margin-right:0;
+    margin-bottom:0;
 }
 #menu{
     width: 30%; text-align:center;

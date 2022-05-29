@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>따릉이</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic+Coding:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500&family=Water+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="main2.css">
+	<script type="text/javascript">
+        function scroll_ev(){
+			const down = document.querySelector('.about').offsetTop;
+            window.scrollTo({ top: down, behavior:"smooth" });
+        }
+    </script>
+</head>
+<body>
+    <header id = "menubar">
+        <h1 id = "main"><a href = "main.html">Seoul Bike</a></h1>
+        <nav id = "menu">
+            <nav>
+                <ul id="main1">
+                    <li class="mainmenu"><a href = "region.html">region</a></li>
+                    <li class="mainmenu"><a href = "sub.html">sub-analysis</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <div class="title" id="subcon">
+        <h1>SEOUL BIKE ANALYSIS</h1>
+    </div>
+    <div class="mainsec">
+        <article class = "sec" id = "m1">
+            <h1>Region</h1>
+            <h3>서울 각 구의 따릉이 정보를<br> 지역별로 볼 수 있습니다</h3>
+            <img src="map2.png"><br>
+            <button class = "but"><a href = "region.html"> go to detail ></a></button>
+        </article>
+        <article class = "sec" id = "m2">
+            <h1>Sub-analysis</h1>
+            <h3>서울 각 구의 따릉이 상세 정보를<br> 볼 수 있습니다</h3>
+            <img src="graph.png"><br>
+            <button class = "but"><a href = "sub.html"> go to detail ></a></button>
+        </article>
+    </div>
+    <div class="space" onclick="scroll_ev()"><img src='subimg/down-arrow.png'></div>
+    <div class="about" id="here">
+        <h1>ABOUT</h1>
+		<div class="about_con">
+			<div id = "submenu">
+				<button><a href="main.html#here">Summary</a></button><br>
+				<button id = "active"><a href="main11.html#here">Project</a></button><br>
+				<button><a href="main2.html#here">Technology</a></button><br>
+				<button><a href="main3.html#here">GitHub</a></button><br>
+				<button><a href="main4.html#here">Members</a></button>
+			</div>
+			<section id = "map_content">
+				<section id = "map_content">
+            <article>
+                <!-- <h1>Project Objective</h1> -->
+                <h3>Analyze & Visualize data</h3>
+                <p>
+                분석한 정보를 한 눈에 알아보기 쉽도록 정리하고,<br> 
+                시각화가 필요한 정보는 시각화</p>
+                <h3>Web</h3>
+                <p>
+                분석 자료에 직관적으로 접근할 수 있도록 디자인</p>
+                <h3>GitHub</h3>
+                <p>
+                Commit, Fork, Fetch, Pull Request, GitHub Page<br>
+                등 GitHub의 여러 기능을 사용한 팀 프로젝트 경험</p>
+            </article>
+        </section>
+			</section>
+		</div>
+		<br>
+		<h2>team 5<br>opensource project</h2>
+    </div>
+</body>
+</html>

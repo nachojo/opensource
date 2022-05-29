@@ -151,15 +151,25 @@
 section{
     width:50%; margin-left: 10%;
     /* border: 3px solid black; */
+	font-family: 'Nanum Gothic Coding', monospace;
 }
-
 #map_content article{
     text-align: left;
     line-height: 1.8em;
-	letter-spacing: 2px;
+	letter-spacing: 0.5px;
 	width: 200%;
 }
-
+#map_content p>a{
+	color:rgb(18, 113, 21);
+	text-decoration: none;
+}
+#map_content p>a:visited{
+	text-decoration: none;
+}
+#map_content p>a:hover{
+	color: rgb(13, 97, 51);
+	font-weight:900;
+}
 .about h2{
 	margin-left: 83%;
 	margin-top: 2.9%;
